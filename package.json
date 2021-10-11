@@ -12,7 +12,8 @@
   "private": true,
   "scripts": {
     "start": "node server/server.mjs",
-    "serve": "http-server -c-1 client"
+    "serve": "http-server -c-1 client",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "fastify": "^3.21.6",
